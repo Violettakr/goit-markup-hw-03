@@ -218,6 +218,7 @@ button {
 
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .our-team {
@@ -231,7 +232,7 @@ button {
     border-radius: 0 0 4px 4px;
 }
 .container-team {
-    
+
 }
 
 .team-name{
@@ -249,11 +250,12 @@ button {
     justify-content: center;
     gap: 24px;
     width: calc((100% -72px) /4);
-    border-radius: 0 0 4px 4px;
     }
 
 .team-item{
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    width: calc((100% -72px ) /4);
 }
 
 .team-role {
