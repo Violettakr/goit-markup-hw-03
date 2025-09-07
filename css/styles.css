@@ -38,10 +38,6 @@ button {
     margin: 0 auto;
 }
 
-container-narrow {
-    width: 1158px;
-}
-
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -174,6 +170,11 @@ container-narrow {
     padding: 120px 0;
 }
 
+container-narrow {
+    width: 1158px;
+    row-gap: 48px;
+}
+
 .feature-title {
     font-weight: 500;
     font-size: 20px;
@@ -204,6 +205,7 @@ container-narrow {
     display: flex;
     justify-content: center;
     gap: 24px;
+    width: calc((100% - 48px) /3);
 }
 .features-item {
     flex-basis: calc((100% - 72px) /4);
@@ -260,7 +262,7 @@ container-narrow {
 }
 
 .portfolio {
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 120px;
     border-bottom: 1px ;
 }
@@ -272,6 +274,7 @@ container-narrow {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
