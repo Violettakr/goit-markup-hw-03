@@ -206,7 +206,7 @@ container-narrow {
     gap: 24px;
 }
 .features-item {
-    min-width: calc((100% -72) /4);
+    flex-basis: calc((100% - 72px) /4);
 }
 
 .feature-text {
@@ -218,8 +218,7 @@ container-narrow {
 
 .team {
     background-color: #F4F4FD;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 120px 0;
 }
 
 .our-team {
@@ -230,6 +229,7 @@ container-narrow {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    border-radius: 0 0 4px 4px;
     
 }
 
@@ -239,6 +239,9 @@ container-narrow {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center;
+    margin-bottom: 8px;
+
 }
 .team-list {
     display: flex;
@@ -253,6 +256,7 @@ container-narrow {
 .team-role {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .portfolio {
