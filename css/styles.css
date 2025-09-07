@@ -170,7 +170,7 @@ button {
     padding: 120px 0;
 }
 
-container-narrow {
+.container-narrow {
     width: 1158px;
     row-gap: 48px;
 }
@@ -205,10 +205,9 @@ container-narrow {
     display: flex;
     justify-content: center;
     gap: 24px;
-    width: calc((100% - 48px) /3);
 }
 .features-item {
-    flex-basis: calc((100% - 72px) /4);
+    flex-basis: calc((100% - 72px) /3);
 }
 
 .feature-text {
