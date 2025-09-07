@@ -124,12 +124,18 @@ container-narrow {
 }
 
 .hero {
-        background-color:#2e2f42;
-        text-align: center;
-        height: 600px;
-        padding: 188px 0;
-}
+    background-color:#2e2f42;
+    text-align: center;
+    height: 600px;
+    padding: 188px 0;
 
+}
+.container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .hero-title {
         color: #ffffff;
         font-size: 56px;
@@ -141,21 +147,21 @@ container-narrow {
 }
 
 .button-bth {
-        background-color: #4d5ae5;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #ffffff;
-        cursor: pointer;
-        border: none;
-        border-radius: 4px;
-        padding: 16px 32px;
-        display: inline-block;
-        margin-top: 48px;
-        display: block;
-        min-width: 169px;
-        height: 56px;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: inline-block;
+    margin-top: 48px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
 }
 
 .button-bth:hover,
@@ -165,8 +171,7 @@ container-narrow {
 
 .features {
     font-family: "Roboto", sans-serif;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 120px 0;
 }
 
 .feature-title {
@@ -201,7 +206,7 @@ container-narrow {
     gap: 24px;
 }
 .features-item {
-    min-width: calc((100% -60) /4);
+    min-width: calc((100% -72) /4);
 }
 
 .feature-text {
