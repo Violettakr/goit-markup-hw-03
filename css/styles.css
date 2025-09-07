@@ -78,8 +78,6 @@ container-narrow {
 .nav-list {
     display: flex;
     gap: 40px;
-    padding-bottom: 24px;
-    padding-top: 24px;
 }
 
 .nav-link {
@@ -90,6 +88,7 @@ container-narrow {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -128,8 +127,7 @@ container-narrow {
         background-color:#2e2f42;
         text-align: center;
         height: 600px;
-        padding-top: 188px;
-        padding-bottom: 48px;
+        padding: 188px 0;
 }
 
 .hero-title {
@@ -155,6 +153,9 @@ container-narrow {
         padding: 16px 32px;
         display: inline-block;
         margin-top: 48px;
+        display: block;
+        min-width: 169px;
+        height: 56px;
 }
 
 .button-bth:hover,
