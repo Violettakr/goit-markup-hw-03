@@ -218,7 +218,6 @@ button {
 
 .team {
     background-color: #F4F4FD;
-    padding: 120px 0;
 }
 
 .our-team {
@@ -229,9 +228,10 @@ button {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    border-radius: 0 0 4px 4px;
 }
 .container-team {
-    padding: 32px 0;
+    
 }
 
 .team-name{
@@ -288,6 +288,7 @@ button {
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    margin: 8px;
 }
 
 .portfolio-item {
