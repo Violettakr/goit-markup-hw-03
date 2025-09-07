@@ -52,26 +52,34 @@ container-narrow {
     color: #4d5ae5;
     text-decoration: none;
     margin-right: 76px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
+
 .logo-accent {
     color: #2E2F42;
 }
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container{
     display: flex;
     align-items: center;
+    width: 1158px;
 }
 
 .nav{
     display: flex;
+    align-items: center;
 }
 
 .nav-list {
     display: flex;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
 .nav-link {
