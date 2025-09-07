@@ -164,6 +164,18 @@ container-narrow {
     color: #2e2f42;
     margin: 8px;
     }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .features-list {
     color: #2E2F42;
@@ -228,6 +240,7 @@ container-narrow {
 .portfolio {
     padding-top: 60px;
     padding-bottom: 120px;
+    border-bottom: 1px ;
 }
 
 .portfolio-title {
